@@ -35,3 +35,14 @@ a {
   display: inline-block;
   width: 3rem;
 }
+@font-face {
+  font-family: AllertaStencil;
+  src: url(Font/Allerta_Stencil/AllertaStencil-Regular.ttf);
+}
+.logo {
+  font-family: "AllertaStencil";
+  font-size: 35px;
+}
+.logo .first-letter {
+  color: #a18a68;
+}
