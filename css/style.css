@@ -14,6 +14,7 @@ a {
   width: 35%;
   height: 3rem;
   margin-left: auto;
+  display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
@@ -60,4 +61,12 @@ a.right {
   text-align: right;
   float: right;
   color: #a18a68;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+.item {
+  margin-right: 4rem;
 }
